@@ -1,78 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Website Sekolah</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Bintang Laut</title>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
         body {
-            background-color: lightblue;
-            font-family: Arial;
+            line-height: 1.6;
+            background: #f4f6f8;
+        }
+
+        header {
+            background: #0d47a1;
+            color: white;
+            padding: 20px;
             text-align: center;
         }
 
-        h1 {
-            color: darkblue;
+        nav {
+            background: #1565c0;
+            display: flex;
+            justify-content: center;
         }
 
-        h2 {
-            color: darkred;
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
         }
 
-        p {
-            font-size: 18px;
+        nav a:hover {
+            background: #0d47a1;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #1976d2, #42a5f5);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0d47a1;
+            color: white;
+            margin-top: 20px;
         }
     </style>
-
 </head>
 
 <body>
 
+
+
+<header>
     <h1>SMA BINTANG LAUT</h1>
+    <p>Website Resmi Sekolah</p>
+</header>
 
-    <p>Selamat datang di website resmi sekolah kami.</p>
+<nav>
+    <a href="#visi">Visi Misi</a>
+    <a href="#profil">Profil</a>
+    <a href="#jurusan">Sistem Pembelajaran</a>
+</nav>
 
-    <h2>Tentang Sekolah</h2>
-    <p>
-        SMA BINTANG LAUT adalah sekolah yang memiliki banyak prestasi
-        di bidang akademik maupun non akademik.
-    </p>
+<div class="hero">
+    <h2>Selamat Datang di SMA Bintang Laut</h2>
+    <p>Sekolah yang berfokus pada disiplin, prestasi, dan karakter</p>
+</div>
 
-    <h2>Visi</h2>
-    <p>
-        Menjadi sekolah unggul, disiplin, dan berprestasi.
-    </p>
+<img src="logo.png" width="300" height="300" style="display: block; margin: 0 auto;">
+<section id="visi">
+    <h2>Visi & Misi</h2>
 
-    <h2>Misi</h2>
-    <p>
-        1. Meningkatkan kualitas belajar siswa.<br>
-        2. Mengembangkan kreativitas dan bakat siswa.<br>
-        3. Menanamkan sikap disiplin dan tanggung jawab.
-    </p>
+    <div class="card">
+        <h3>Visi</h3>
+        <p>
+            Menjadi sekolah menengah atas yang unggul dalam prestasi akademik,
+            berkarakter kuat, disiplin, serta mampu bersaing di tingkat nasional
+            dan global dengan tetap menjunjung tinggi nilai moral dan kebangsaan.
+        </p>
+    </div>
 
-    <h2>Jurusan</h2>
-    <p>
-        - RPL (Rekayasa Perangkat Lunak)<br>
-        - TKJ (Teknik Komputer dan Jaringan)<br>
-        - AKL (Akuntansi dan Keuangan Lembaga)<br>
-        - TBSM (Teknik Bisnis Sepeda Motor)
-    </p>
+    <div class="card">
+        <h3>Misi</h3>
+        <ul>
+            <li>Meningkatkan kualitas pembelajaran yang efektif dan kreatif.</li>
+            <li>Membentuk siswa yang disiplin, jujur, dan bertanggung jawab.</li>
+            <li>Mengembangkan bakat dan minat siswa di bidang akademik dan non-akademik.</li>
+            <li>Menciptakan lingkungan sekolah yang nyaman dan kondusif.</li>
+        </ul>
+    </div>
+</section>
 
-    <h2>Fasilitas</h2>
-    <p>
-        Labor komputer, perpustakaan, kantin, lapangan olahraga,
-        ruang kelas nyaman, dan WiFi sekolah.
-    </p>
+<section id="profil">
+    <h2>Profil Sekolah</h2>
+    <div class="card">
+        <p>
+            SMA Bintang Laut adalah sekolah menengah atas yang berkomitmen
+            dalam membangun generasi muda yang cerdas, berakhlak, dan siap
+            menghadapi masa depan.
+        </p>
+    </div>
+</section>
 
-    <h2>Prestasi</h2>
-    <p>
-        Juara lomba komputer tingkat kabupaten dan juara futsal antar sekolah.
-    </p>
+<section id="jurusan">
+    <h2>Sistem Pembelajaran</h2>
 
-    <h2>Kontak Sekolah</h2>
-    <p>
-        Email: anomalilewis@gmail.com<br>
-        Telepon: 0895-6226-31333
-    </p>
+    <div class="card">
+        <h3>Catatan Penting</h3>
+        <p>
+            Di SMA Bintang Laut tidak ada jurusan seperti IPA/IPS secara formal.
+            Semua siswa mendapatkan pembelajaran yang sama, namun tetap diberikan
+            penguatan minat sesuai kemampuan masing-masing.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Pengembangan Minat</h3>
+        <p>
+            Walaupun tidak ada jurusan, siswa tetap bisa memilih fokus minat
+            seperti sains, sosial, atau teknologi melalui kegiatan tambahan.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SMA Bintang Laut | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
